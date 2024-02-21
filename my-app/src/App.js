@@ -12,7 +12,7 @@ function App() {
   };
 
   const handleClick3 = () => {
-    window.location.href = 'https://example.com';
+    window.location.href = 'https://github.com/IlyaKash/web_lab';
   };
 
   return (
