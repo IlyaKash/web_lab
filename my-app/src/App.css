@@ -28,6 +28,7 @@
   color: #61dafb;
 }
 
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +36,45 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.ContainerLeftMenu {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-right: 20px;
+  float: left;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Тень */
+  border-radius: 5px; /* Округление углов */
+  border: 1px solid #ddd; /* Рамка */
+}
+
+.ContainerLeftMenu ul {
+  list-style: none; /* Убираем маркеры списка */
+  padding: 0;
+}
+
+.ContainerLeftMenu li {
+  margin-bottom: 10px; /* Отступ между элементами списка */
+}
+
+.ContainerLeftMenu button {
+  display: block; /* Размещаем кнопки как блочные элементы */
+  width: 100%; /* Ширина кнопок равна ширине родительского элемента */
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.ContainerLeftMenu button:hover {
+  background-color: #0056b3;
+}
+
+.Content{
+  overflow: auto;
+
+  
 }
